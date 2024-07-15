@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section__title {
+    font-size: 2.5rem;
+  }
+  
+  .section__subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .section__description {
+    font-size: 1rem;
+  }
+  
+  /* Estilos para pantallas pequeñas y medianas */
+  @media (max-width: 992px) {
+    .brand__content-section {
+      padding: 20px 0; /* Ajuste de relleno */
+    }
+  }
+  
+  /* Estilos para pantallas extra pequeñas */
+  @media (max-width: 576px) {
+    .brand__content-item {
+      text-align: center; /* Centrar elementos en pantallas muy pequeñas */
+      margin-bottom: 20px; /* Espacio entre elementos */
+    }
+    .brand__content-item img {
+      max-width: 80%; /* Ajuste del ancho máximo de la imagen */
+      height: auto; /* Altura automática para mantener la proporción */
+      margin-bottom: 10px; /* Espacio inferior de la imagen */
+    }
+    .brand__content-item p {
+      font-size: 14px; /* Reducción del tamaño del texto */
+    }
+  }
+  
+  /* Estilos específicos para diferentes tamaños de pantalla */
+  @media only screen and (max-width: 576px) {
+
+    
+    .section__title {
+      font-size: 1rem; /* Reducir el tamaño de la fuente */
+      margin-top: 20px; /* Agregar margen superior */
+      margin-bottom: 10px; /* Ajustar el margen inferior */
+    }
+  
+    .section__subtitle {
+      font-size: 1rem;
+    }
+  
+    .section__description {
+      font-size: 0.8rem;
+    }
+  
+    .brand__content-section {
+        padding: 35px 0; /* Aumentar el relleno para dar más espacio a los elementos */
+        height: auto; /* Eliminar la altura fija para que la sección se ajuste al contenido */
+      }
+  
+    /* Estilos para los elementos dentro de "brand__content-section" en pantallas pequeñas */
+    .brand__content-item {
+      display: inline-block; /* Asegurar que los elementos se muestren en línea */
+      margin: 10px; /* Ajustar el margen entre elementos */
+      vertical-align: top; /* Alinear los elementos en la parte superior */
+    }
+  
+    .brand__content-item img {
+      max-width: 80%; /* Ajuste del ancho máximo de la imagen */
+      height: auto; /* Altura automática para mantener la proporción */
+      margin-bottom: 10px; /* Espacio inferior de la imagen */
+    }
+  
+    .brand__content-item p {
+      font-size: 1rem; /* Reducir el tamaño de la fuente */
+    }
+    
+    
+    
+  }

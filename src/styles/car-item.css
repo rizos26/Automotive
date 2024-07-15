@@ -1,0 +1,119 @@
+.price-button {
+  background-color: #c71212; /* Rojo */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px; /* Agrega el mismo borde redondeado si es necesario */
+}
+
+.car__item-btn {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  padding: 8px 0px;
+  margin: 0; /* Asegurarse de que no haya margen */
+}
+
+.car__item-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.car__item-btn a:hover {
+  color: #fff;
+}
+
+.car__btn-details {
+  background: #c71212; /* Rojo para Ver detalles */
+  border-radius: 0px 4px 4px 0px;
+}
+
+.car__btn-rent {
+  border-radius: 4px 0px 0px 4px;
+  background: #050a2a; /* Azul para Reservar */
+}
+
+.car__whatsapp-icon {
+  margin-left: 8px; /* Espacio a la izquierda del ícono de WhatsApp */
+}
+
+.car__item-content h4 {
+  font-size: 1.8rem;
+}
+
+.car__item-content h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.car__item-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+
+.car__item-info span {
+  margin: 0 4px; /* Reduce este valor para ajustar el espacio entre elementos */
+  padding: 0; /* Elimina padding interno de cada span */
+}
+
+@media only screen and (max-width: 992px) {
+  .car__item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+
+  .car__item h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .car__item-info {
+    flex-wrap: wrap;
+  }
+
+  .car__item-info span {
+    font-size: 0.8rem;
+    justify-content: space-between;
+    margin: 0 3px; /* Mantén el margen ajustado en pantallas pequeñas */
+    padding: 0; /* Elimina padding interno en pantallas pequeñas */
+  }
+
+  .car__item-btn {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .car__item h4 {
+    font-size: 1rem;
+  }
+
+  .car__item h6 {
+    font-size: 0.9rem;
+  }
+
+  .car__item-info span {
+    font-size: 0.7rem;
+    margin: 0 2px; /* Mantén el margen ajustado en pantallas pequeñas */
+    padding: 0; /* Elimina padding interno en pantallas pequeñas */
+  }
+
+  .car__item-info span i {
+    font-size: 0.9rem;
+  }
+
+  .car__item-btn {
+    font-size: 0.8rem;
+  }
+}
