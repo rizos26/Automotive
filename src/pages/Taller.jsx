@@ -9,7 +9,7 @@ import "../styles/contact.css";
 
 const Taller = () => {
   const [taller, setTaller] = useState('');
-  const [nuevoTaller, setNuevoTaller] = useState('');
+  const [ setNuevoTaller] = useState('');
   const [formData, setFormData] = useState({
     id: '',
     name: '',
